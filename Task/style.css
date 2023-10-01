@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.heading {
+    position: absolute;
+    margin-left: 45%;
+    color: #ddd;
+}
+
+form {
+    background-color: rgb(57, 57, 57);
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 33%;
+}
+
+input {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    border-style: none;
+    height: 35px;
+    width: 350px;
+    border: 2px solid white;
+    background-color: rgb(57, 57, 57);
+    margin-top: 20px;
+    color: #ddd;
+}
+
+textarea {
+    font-family: sans-serif;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    border-style: none;
+    height: 100px;
+    width: 350px;
+    border: 2px solid white;
+    background-color: rgb(57, 57, 57);
+    margin-top: 20px;
+    color: white;
+}
+
+.inp {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.lable {
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 57, 57);
+    font-weight: 500;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 49%;
+    position: absolute;
+}
+
+.th {
+    margin-top: 45%;
+    margin-left: 47%;
+    position: absolute;
+    color: #ddd;
+    font-size: xx-large;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: medium;
+    color: #000000;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 28%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(57, 57, 57);
+    border: 2px solid white;
+    color: white;
+    transition: 0.5s;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #ddd;
+}
+
+th {
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
